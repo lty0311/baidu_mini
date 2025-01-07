@@ -1,0 +1,170 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+form,
+button,
+input,
+textarea,
+th,
+td,
+table,
+a,
+em,
+img,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  margin: 0px;
+  padding: 0px;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font: 14px "微软雅黑", Tahoma, Geneva, sans-serif;
+  color: #2e2e2e;
+  line-height: 24px;
+}
+
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -webkit-text-size-adjust: none;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-drag: none;
+}
+
+a,
+img {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+}
+
+em {
+  font-style: normal;
+}
+
+ul,
+li {
+  list-style: none;
+  /* overflow: hidden; */
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+p {
+  word-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+  color: #2e2e2e;
+}
+
+a:hover {
+  color: #2e2e2e;
+}
+
+a span,
+a em {
+  cursor: pointer;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body {
+  width: 100%;
+  margin: 0px auto;
+}
+#headbox{
+}
+.box{
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  margin: 30px auto;
+}
+.box .left{
+  width: 650px;
+  min-height: 500px;
+}
+.box .left ul li{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.box .left ul li .img{
+  width: 130px;
+}
+.box .left ul li .img img{
+  width: 100%;
+  border-radius: 10px;
+}
+.box .left ul li .con{
+  flex: 1;
+  padding: 3px 20px 3px 10px;
+  position: relative;
+}
+.box .left ul li .con .title{
+  font-family: PingFangSC-Regular, arial, 'Microsoft Yahei', '微软雅黑';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal; /* 允许文本内的正常换行 */
+}
+.box .left ul li .con .time{
+  color: #999;
+  font-size: 13px;
+  position: absolute;
+  bottom: 0;
+}
+
+.box .right{
+  flex: 1;
+  min-height: 120px;
+}
