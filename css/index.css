@@ -168,3 +168,24 @@ body {
   flex: 1;
   min-height: 120px;
 }
+
+
+.detail{
+  width: 750px;
+  margin: 0 auto;
+}
+.detail .time{
+  font-size: 12px;
+  color: #909090;
+}
+.detail .content{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-size: 16px;
+  color: #333;
+  font-family: monospace; /* 使用等宽字体，类似于 <pre> 的默认行为 */
+  text-align: justify;
+  word-wrap: break-word;
+  line-height: 28px;
+}
