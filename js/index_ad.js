@@ -6,14 +6,16 @@ function loadJavaScriptFile(path) {
 }
 
 
+var targetDiv = document.querySelector('#right_ad');
+targetDiv.appendChild('<ins class="adsbygoogle"\n' +
+  '     style="display:block"\n' +
+  '     data-ad-format="autorelaxed"\n' +
+  '     data-ad-client="ca-pub-9761395598322566"\n' +
+  '     data-ad-slot="6980949150"></ins>');
 // 创建 script 元素
-var script = document.createElement('script');
-// 设置 script 的 src 属性
-script.src = '/js/index_ad_right.js';
-// 可选：设置其他属性，例如 type
-script.type = 'text/javascript';
-// 将 script 插入到 #right_ad 元素内
-document.querySelector('#right_ad').appendChild(script);
+var script_adsbygoogle = document.createElement('script');
+script_adsbygoogle.textContent = `(adsbygoogle = window.adsbygoogle || []).push({});`;
+targetDiv.appendChild(script_adsbygoogle);
 
 window.onload = function () {
   setTimeout(() => {
