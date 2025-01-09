@@ -118,13 +118,13 @@ body {
 #headbox{
 }
 .box{
-  width: 900px;
+  width: 800px;
   display: flex;
   flex-direction: row;
   margin: 30px auto;
 }
 .box .left{
-  width: 650px;
+  width: 600px;
   min-height: 500px;
 }
 .box .left ul li{
