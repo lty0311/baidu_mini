@@ -10,6 +10,6 @@ function loadJavaScriptFile(path) {
 
 window.onload = function () {
   setTimeout(() => {
-    loadJavaScriptFile('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
+    loadJavaScriptFile('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9761395598322566');
   }, 1);
 };
