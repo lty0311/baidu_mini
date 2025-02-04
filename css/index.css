@@ -176,6 +176,7 @@ body {
 }
 .detail h1{
   margin: 30px auto;
+  line-height: 36px;
 }
 .detail .time{
   font-size: 12px;
