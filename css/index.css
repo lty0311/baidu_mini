@@ -134,6 +134,7 @@ body {
 }
 .box .left ul li .img{
   width: 130px;
+  min-height: 72px;
 }
 .box .left ul li .img img{
   width: 100%;
