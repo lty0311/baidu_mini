@@ -200,6 +200,8 @@ body {
   --articleFontsize: 17px
 }
 
+pre{margin:0}
+
 body.wx_wap_page {
   font-family: PingFang SC, system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, Hiragino Sans GB, Microsoft YaHei UI, Microsoft YaHei, Arial, sans-serif
 }
